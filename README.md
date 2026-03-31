@@ -45,8 +45,8 @@ chmod +x vm-health-check.sh
 
 ---
 
-## 📸![WhatsApp Image 2026-03-31 at 1 15 27 PM](https://github.com/user-attachments/assets/fa5e4d07-095a-4f8e-978c-2e9ad8af79d4)
- Demo
+## 📸!![WhatsApp Image 2026-03-31 at 1 15 47 PM](https://github.com/user-attachments/assets/3ddc3750-8cf4-480a-ad6a-733110542de2)
+
 
 ![VM Health Output](screenshots/output.png)
 
