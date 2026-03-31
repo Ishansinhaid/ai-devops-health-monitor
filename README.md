@@ -1,4 +1,3 @@
-
 # 🚀 AI DevOps Health Monitor
 
 A lightweight AI-assisted Bash script that monitors system health by analyzing CPU, memory, and disk usage, and provides explainable output using command-line arguments.
@@ -29,33 +28,37 @@ A lightweight AI-assisted Bash script that monitors system health by analyzing C
 ### 1. Make script executable
 
 ```bash
-chmod +x health.sh
+chmod +x vm-health-check.sh
 ```
 
 ### 2. Run script
 
 ```bash
-./health.sh
+./vm-health-check.sh
 ```
 
 ### 3. Run with explanation
 
 ```bash
-./health.sh explain
+./vm-health-check.sh explain
 ```
+
+---
+
+## 📸![WhatsApp Image 2026-03-31 at 1 15 27 PM](https://github.com/user-attachments/assets/fa5e4d07-095a-4f8e-978c-2e9ad8af79d4)
+ Demo
+
+![VM Health Output](screenshots/output.png)
 
 ---
 
 ## 📊 Sample Output
 
 ```bash
-CPU: 45%
-Memory: 70%
-Disk: 30%
-Status: Unhealthy
-
----- Explanation ----
-High Memory usage
+Healthy
+CPU usage: 0%
+Memory usage: 33.981%
+Disk usage: 26%
 ```
 
 ---
@@ -81,8 +84,20 @@ High Memory usage
 
 * 🔔 Add alerting system (Email/Slack)
 * 📦 Dockerize the script
-* ☁️ Deploy on AWS EC2
+* ☁️ Deploy on AWS EC2 with multiple instances
 * 📈 Integrate with monitoring tools (Prometheus/Grafana)
+
+---
+
+## 📂 Project Structure
+
+```
+ai-devops-health-monitor/
+ ├── vm-health-check.sh
+ ├── README.md
+ └── screenshots/
+     └── output.png
+```
 
 ---
 
@@ -93,6 +108,7 @@ DevOps Enthusiast | Cloud Learner | AI + DevOps Explorer
 
 ---
 
-## ⭐ If you found this useful
+## ⭐ Support
 
-Give this repo a ⭐ and share your feedback!
+If you found this project useful, give it a ⭐ and share your feedback!
+
